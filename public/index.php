@@ -1,6 +1,5 @@
 <?php
-$test = "asdasd";
-echo $test;
-//echo phpinfo();
+
+echo phpinfo();
 
 xdebug_info();

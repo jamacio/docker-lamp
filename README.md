@@ -4,7 +4,7 @@ A ready to use docker-compose configuration with php, mysql, nginx.
 
 Containers:
 
-- PHP 8.0
+- PHP 8.1
 - nginx
 - MySQL 5.7
 - phpmyadmin

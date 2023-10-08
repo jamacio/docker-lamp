@@ -1,4 +1,4 @@
-FROM php:8.0-fpm
+FROM php:8.1-fpm
 
 # Arguments defined in docker-compose.yml
 ARG user
@@ -28,7 +28,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 # Install PHP extensions
 RUN docker-php-ext-install zip mysqli soap pdo_mysql mbstring exif pcntl bcmath gd  && docker-php-ext-enable mysqli && docker-php-ext-configure intl \
     && docker-php-ext-install \
-        intl \
+    intl \
     && docker-php-ext-enable intl
 
 
