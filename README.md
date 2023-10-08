@@ -1,4 +1,4 @@
-# docker-lamp-simple
+# docker-lamp
 
 A ready to use docker-compose configuration with php, mysql, nginx.
 
@@ -12,8 +12,8 @@ Containers:
 ## Installation
 
 ```shell
-git clone https://github.com/stdakov/docker-lamp-simple.git
-cd docker-lamp-simple/
+git clone https://github.com/jamacio/docker-lamp.git
+cd docker-lamp/
 git pull
 docker-compose up -d
 ```
